@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a91d781a-7ccb-4a55-8362-f70acd885e3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/predictor.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/predictor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +25,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/predictor.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="691">
+              <caret line="213" column="51" selection-start-line="213" selection-start-column="51" selection-end-line="213" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/predictor.h">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180" />
+            <state relative-caret-position="570">
+              <caret line="118" column="45" lean-forward="true" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>global</find>
+      <find>localPHT</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,11 +58,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="489" />
-    <option name="y" value="34" />
-    <option name="width" value="1400" />
-    <option name="height" value="859" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="956" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,18 +115,19 @@
       <option name="presentableId" value="Default" />
       <updated>1557986835860</updated>
       <workItem from="1557986838280" duration="127000" />
-      <workItem from="1558047198929" duration="3270000" />
+      <workItem from="1558047198929" duration="4330000" />
+      <workItem from="1558135186429" duration="5924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3397000" />
+    <option name="totallyTimeSpent" value="10381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1851" height="901" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16232687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -142,14 +152,19 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/predictor.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
+        <state relative-caret-position="570">
+          <caret line="118" column="45" lean-forward="true" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/predictor.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="691">
+          <caret line="213" column="51" selection-start-line="213" selection-start-column="51" selection-end-line="213" selection-end-column="51" />
         </state>
       </provider>
     </entry>
