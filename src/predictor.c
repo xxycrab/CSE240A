@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include "predictor.h"
 #include "string.h"
+#include "neural.h"
 
 //
 // TODO:Student Information
@@ -76,6 +77,7 @@ void init_predictor() {
             memset(selector, WN, sizeof(uint8_t) * (1 << ghistoryBits));
             break;
         case CUSTOM:
+            neural_path_init();
             break;
         default:
             break;
@@ -130,6 +132,7 @@ uint8_t make_prediction(uint32_t pc) {
         case TOURNAMENT:
             return tournament_prediction(pc);
         case CUSTOM:
+            return get_neural_prediction(pc);
         default:
             break;
     }
@@ -218,6 +221,8 @@ void train_predictor(uint32_t pc, uint8_t outcome) {
             tournament_update(pc, outcome);
             break;
         case CUSTOM:
+            neural_train(pc, outcome);
+            break;
         default:
             break;
     }
